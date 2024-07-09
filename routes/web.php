@@ -1,5 +1,10 @@
 <?php
 
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\IndexController;
+use App\Http\Controllers\PageController;
+use App\Http\Controllers\IllustrationController;
+use App\Http\Controllers\CharacterDesignController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [IndexController::class, 'index']);
+Route::get('/illustrations', [IllustrationController::class, 'index']);
+Route::get('/character-designs', [CharacterDesignController::class, 'index']);
+Route::get('/about-us', [PageController::class, 'getAboutUs']);
+Route::get('/contact', [ContactController::class, 'index']);
