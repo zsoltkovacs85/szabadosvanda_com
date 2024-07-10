@@ -16,7 +16,6 @@
         <div class="container">
             <h1 class="text-center mt-5 text-uppercase raleway-200">{{__('Vanda Szabados')}}</h1>
             <h3 class="text-center text-uppercase raleway-400 subtitle">{{__('Character Design')}}</h3>
-
             <nav class="navbar navbar-expand-lg mt-3">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -59,11 +58,27 @@
     </header>
     <main class="mt-5">
         <div class="container text-center">
-
             @yield('content')
         </div>
     </main>
-    <footer></footer>
+    <footer class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="d-flex justify-content-center raleway-200">
+                        <a href="" class="me-2">Cookie Policy</a> | <a href="" class="ms-2">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-12 text-center">
+                    <div id="copyright" class="raleway-200" role="contentinfo">
+                        © {{date('Y', time())}} Vanda Szabados
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
 </body>
 </html>
