@@ -1,0 +1,47 @@
+.raleway-200 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.raleway-300 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.raleway-400 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.subtitle{
+  color: #f1ffeb;
+}
+
+html {
+ /* background-color: #d1cbc5;*/
+  background-color: #febe98;
+
+  h3{
+    letter-spacing: 0.4rem;
+  }
+  ul{
+    letter-spacing: 0.08rem;
+  }
+
+  #site_layout {
+   /* background-color: #d1cbc5;*/
+    background-color: #febe98;
+  }
+
+  .swiper {
+    width: 600px;
+    height: 600px;
+/*    border: 1px solid red;*/
+  }
+}

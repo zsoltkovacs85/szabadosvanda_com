@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 interface iIllustrationController
 {
     public function index();
+    public function show($url);
 
 }
 
@@ -15,5 +16,9 @@ class IllustrationController extends Controller implements iIllustrationControll
     public function index()
     {
         return view('illustrations.index');
+    }
+
+    public function show($url){
+        return view('illustrations.show');
     }
 }

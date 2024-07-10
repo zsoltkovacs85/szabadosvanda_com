@@ -9,6 +9,8 @@ interface iCharacterDesignController
 
     public function index();
 
+    public function show($url);
+
 }
 
 class CharacterDesignController extends Controller implements iCharacterDesignController
@@ -16,5 +18,9 @@ class CharacterDesignController extends Controller implements iCharacterDesignCo
     public function index()
     {
         return view('character_designs.index');
+    }
+
+    public function show($url){
+        return view('character_designs.show');
     }
 }

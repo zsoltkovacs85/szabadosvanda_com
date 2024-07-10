@@ -20,6 +20,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [IndexController::class, 'index']);
 Route::get('/illustrations', [IllustrationController::class, 'index']);
+Route::get('/illustrations/{url}', [IllustrationController::class, 'show']);
 Route::get('/character-designs', [CharacterDesignController::class, 'index']);
+Route::get('/character-designs/{url}', [CharacterDesignController::class, 'show']);
 Route::get('/about-us', [PageController::class, 'getAboutUs']);
 Route::get('/contact', [ContactController::class, 'index']);
