@@ -1,7 +1,6 @@
 @extends('layouts.index')
 
 @section('content')
-
     {{-- <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
                    <div class="carousel-inner">
                        <div class="carousel-item active" data-bs-interval="2000">
@@ -50,25 +49,23 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide">
-                <img src="https://torschrank.com/wp-content/uploads/2019/12/Home-27.png" alt="" width="600">
-            </div>
-            <div class="swiper-slide">
-                <img src="https://torschrank.com/wp-content/uploads/2019/12/Home-27.png" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="https://torschrank.com/wp-content/uploads/2019/12/Home-27.png" alt="">
-            </div>
+            @if(isset($images) && count($images) > 0 )
+                @foreach($images as $image)
+                    <div class="swiper-slide">
+                        <img src="{{env('ADMIN_URL')}}/{{$image->path}}" alt="" width="500">
+                    </div>
+                @endforeach
+            @endif
         </div>
         <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+        {{--<div class="swiper-pagination"></div>--}}
 
         <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+      {{--  <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>--}}
 
         <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
+       {{-- <div class="swiper-scrollbar"></div>--}}
     </div>
 
 @endsection

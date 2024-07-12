@@ -19,34 +19,58 @@
   font-style: normal;
 }
 
-.subtitle{
+.subtitle {
   color: #f1ffeb;
 }
 
 html {
 
-  a{
+  a {
     text-decoration: none;
     color: black;
   }
- /* background-color: #d1cbc5;*/
+
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    font-weight: 400;
+    color: #f1ffeb;
+  }
+
+  .navbar-nav .nav-link:hover {
+    /* font-weight: 400;*/
+    /* transform: scale(1.03);
+     transition: 0.3s linear;*/
+
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+  }
+
+  /* background-color: #d1cbc5;*/
   background-color: #febe98;
 
-  h3{
+  h3 {
     letter-spacing: 0.4rem;
   }
-  ul{
+
+  ul {
     letter-spacing: 0.08rem;
   }
 
   #site_layout {
-   /* background-color: #d1cbc5;*/
     background-color: #febe98;
   }
 
   .swiper {
     width: 600px;
     height: 600px;
-/*    border: 1px solid red;*/
+  }
+
+  footer {
+    a {
+
+    }
+
+    a:hover {
+      color: #f1ffeb;
+    }
   }
 }

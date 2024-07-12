@@ -2,17 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Page;
 use Illuminate\Http\Request;
 
 interface iPageController
 {
-    public function getAboutUs();
+    public function getPageContent(Request $request);
 }
 
 class PageController extends Controller implements iPageController
 {
-    public function getAboutUs()
+    public function getPageContent(Request $request)
     {
-        return view('pages.about');
+        $page = Page::where('url', $request->segment(1))->firstOrFail();
+        return view('pages.about', ['page' => $page]);
     }
 }

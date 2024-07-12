@@ -1,4 +1,5 @@
 import * as bootstrap from 'bootstrap';
+import 'animate.css';
 import Swiper from 'swiper';
 import 'swiper/css';
 import 'bootstrap/dist/css/bootstrap.css';

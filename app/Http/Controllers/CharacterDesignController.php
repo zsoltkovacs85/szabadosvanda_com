@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\CharacterDesign;
 use Illuminate\Http\Request;
 
 interface iCharacterDesignController
@@ -17,10 +18,15 @@ class CharacterDesignController extends Controller implements iCharacterDesignCo
 {
     public function index()
     {
-        return view('character_designs.index');
+        $characterDesigns = CharacterDesign::all();
+
+        return view('character_designs.index', [
+            'characterDesigns' => $characterDesigns
+        ]);
     }
 
-    public function show($url){
+    public function show($url)
+    {
         return view('character_designs.show');
     }
 }

@@ -3,28 +3,17 @@
 @section('content')
 
     <div class="row">
-        <h3 class="text-center raleway-200 mb-5 text-uppercase">Illustration</h3>
-        <div class="col">
-            <a href="{{url('illustrations/url')}}">
-                <img src="https://www.woutertulp.com/uploads/2/4/1/5/24156441/leo-poster_orig.jpg" class="img-fluid">
-            </a>
-        </div>
-        <div class="col">
-            <a href="{{url('illustrations/url')}}">
-                <img src="https://www.woutertulp.com/uploads/2/4/1/5/24156441/leo-poster_orig.jpg" class="img-fluid">
-            </a>
-        </div>
-        <div class="col">
-            <a href="{{url('illustrations/url')}}">
-                <img src="https://www.woutertulp.com/uploads/2/4/1/5/24156441/leo-poster_orig.jpg" class="img-fluid">
-            </a>
-        </div>
-        <div class="col">
-            <a href="{{url('illustrations/url')}}">
-                <img src="https://www.woutertulp.com/uploads/2/4/1/5/24156441/leo-poster_orig.jpg" class="img-fluid">
-            </a>
-        </div>
+        <h3 class="text-center raleway-200 my-5 text-uppercase subtitle">Illustration</h3>
+        @if(isset($illustrations) && count($illustrations) > 0 )
+            @foreach($illustrations as $illustration)
+                <div class="col-3">
+                    <a href="{{url('illustrations/' . $illustration->url)}}">
+                        <img src="{{env('ADMIN_URL')}}/{{$illustration->thumbnail}}" class="img-fluid">
+                    </a>
+                </div>
 
+            @endforeach
+        @endif
     </div>
 
 @endsection

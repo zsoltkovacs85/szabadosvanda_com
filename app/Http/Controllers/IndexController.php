@@ -15,10 +15,10 @@ class IndexController extends Controller implements iIndexController
     public function index()
     {
 
-        //$images = GalleryImage::where('page_id', 1)->first();
+        $images = GalleryImage::where('page_id', 1)->get();
 
         return view('index.index', [
-            //'images' => $images
+            'images' => $images
         ]);
     }
 }

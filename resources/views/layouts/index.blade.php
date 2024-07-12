@@ -26,19 +26,19 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav mx-auto raleway-300 text-uppercase">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="{{url('/')}}">Home</a>
+                                <a class="nav-link  @if(!request()->segment(1)) active @endif" aria-current="page" href="{{url('/')}}">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{url('character-designs')}}">Character Design</a>
+                                <a class="nav-link @if(request()->segment(1) == 'character-designs' ) active @endif" href="{{url('character-designs')}}">Character Design</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{url('illustrations')}}">Illustration</a>
+                                <a class="nav-link @if(request()->segment(1) == 'illustrations') active @endif" href="{{url('illustrations')}}">Illustration</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{url('about-us')}}">About</a>
+                                <a class="nav-link @if(request()->segment(1) == 'about') active @endif" href="{{url('about')}}">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{url('contact')}}">Contact</a>
+                                <a class="nav-link @if(request()->segment(1) == 'contact') active @endif" href="{{url('contact')}}">Contact</a>
                             </li>
                             {{--<li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -61,12 +61,14 @@
             @yield('content')
         </div>
     </main>
+    <!-- FOOTER -->
     <footer class="">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="d-flex justify-content-center raleway-200">
-                        <a href="" class="me-2">Cookie Policy</a> | <a href="" class="ms-2">Privacy Policy</a>
+                        <a href="{{url('/cookie-policy')}}" class="me-2">Cookie Policy</a> |
+                        <a href="{{url('/privacy-statement')}}" class="ms-2">Privacy Statement</a>
                     </div>
                 </div>
             </div>

@@ -23,5 +23,7 @@ Route::get('/illustrations', [IllustrationController::class, 'index']);
 Route::get('/illustrations/{url}', [IllustrationController::class, 'show']);
 Route::get('/character-designs', [CharacterDesignController::class, 'index']);
 Route::get('/character-designs/{url}', [CharacterDesignController::class, 'show']);
-Route::get('/about-us', [PageController::class, 'getAboutUs']);
+Route::get('/about', [PageController::class, 'getPageContent']);
 Route::get('/contact', [ContactController::class, 'index']);
+Route::get('/cookie-policy', [PageController::class, 'getPageContent']);
+Route::get('/privacy-statement', [PageController::class, 'getPageContent']);
