@@ -27,7 +27,7 @@ class IllustrationController extends Controller implements iIllustrationControll
 
     public function show($url)
     {
-        $images = Illustration::join('gallery_images', 'character_designs.id', '=', 'gallery_images.illustration_id')
+        $images = Illustration::join('gallery_images', 'illustrations.id', '=', 'gallery_images.illustration_id')
             ->where('illustrations.url', $url)
             ->get();
 
