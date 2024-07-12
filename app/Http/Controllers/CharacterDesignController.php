@@ -27,6 +27,12 @@ class CharacterDesignController extends Controller implements iCharacterDesignCo
 
     public function show($url)
     {
-        return view('character_designs.show');
+        $images = CharacterDesign::join('gallery_images', 'character_designs.id', '=', 'gallery_images.character_designs_id')
+            ->where('character_designs.url', $url)
+            ->get();
+
+        return view('character_designs.show',[
+            'images' => $images
+        ]);
     }
 }
