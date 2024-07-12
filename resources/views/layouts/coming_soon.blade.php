@@ -18,7 +18,7 @@
             <h3 class="text-center text-uppercase raleway-400 subtitle">{{__('Character Design')}}</h3>
         </div>
     </header>
-    <main class="mt-5">
+    <main class="">
         <div class="container text-center">
             @yield('content')
         </div>
