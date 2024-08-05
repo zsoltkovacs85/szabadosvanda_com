@@ -44,18 +44,39 @@
                <span class="visually-hidden">Next</span>
            </button>
        </div>--}}
+
     <!-- Slider main container -->
-    <div class="swiper">
+    <div class="swiper mySwiper">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->
-            @if(isset($images) && count($images) > 0 )
+           {{-- @if(isset($images) && count($images) > 0 )
                 @foreach($images as $image)
                     <div class="swiper-slide">
                         <img src="{{env('ADMIN_URL')}}/{{$image->path}}" alt="" width="500">
                     </div>
                 @endforeach
-            @endif
+            @endif--}}
+
+            <div class="swiper-slide">
+                <img src="{{asset('assets/img/slider/slider_1.png')}}" alt="" width="500">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="{{asset('assets/img/slider/slider_2.png')}}" alt="" width="500">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="{{asset('assets/img/slider/slider_3.png')}}" alt="" width="500">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="{{asset('assets/img/slider/slider_4.png')}}" alt="" width="500">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="{{asset('assets/img/slider/slider_5.png')}}" alt="" width="500">
+            </div>
         </div>
         <!-- If we need pagination -->
         {{--<div class="swiper-pagination"></div>--}}
@@ -67,5 +88,11 @@
         <!-- If we need scrollbar -->
        {{-- <div class="swiper-scrollbar"></div>--}}
     </div>
+
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {});
+    </script>
 
 @endsection

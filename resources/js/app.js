@@ -1,12 +1,51 @@
 import * as bootstrap from 'bootstrap';
 import 'animate.css';
-import Swiper from 'swiper';
-import 'swiper/css';
+/*import Swiper from 'swiper';*/
+/*import 'swiper/css';*/
 import 'bootstrap/dist/css/bootstrap.css';
 import '../scss/styles.scss';
 
 
-const swiper = new Swiper('.swiper', {
+
+const modal = new bootstrap.Modal('#zoom_img_modal', {
+
+})
+
+
+    const swiper = new Swiper(".mySwiper", {
+
+        loop: true,
+
+     /*   effect: "fade",*/
+        autoplay: {
+            delay: 3000,
+        },
+      /*  pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },*/
+    });
+
+
+// Shorthand for $( document ).ready()
+$(function() {
+   $('#concept_design_wrap img').on('click', function (){
+
+       $('#zoom_img_modal .modal-body img').attr('src',$(this).attr('src'));
+
+      /* const img = $(this).attr('src');*/
+
+       modal.show();
+   })
+});
+
+
+
+/*const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'vertical',
     loop: true,
@@ -26,4 +65,4 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
         el: '.swiper-scrollbar',
     },
-});
+});*/

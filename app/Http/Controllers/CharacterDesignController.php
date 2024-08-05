@@ -20,7 +20,7 @@ class CharacterDesignController extends Controller implements iCharacterDesignCo
     {
         $characterDesigns = CharacterDesign::all();
 
-        return view('character_designs.index', [
+        return view('concept_design.index', [
             'characterDesigns' => $characterDesigns
         ]);
     }

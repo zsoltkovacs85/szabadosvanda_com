@@ -20,7 +20,8 @@
 }
 
 .subtitle {
-  color: #f1ffeb;
+ /* color: #f1ffeb;*/
+ /* color: #6b6b6b;*/
 }
 
 html {
@@ -32,20 +33,28 @@ html {
 
   .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     font-weight: 400;
-    color: #f1ffeb;
+    color: #6b6b6b;
   }
 
   .navbar-nav .nav-link:hover {
-    /* font-weight: 400;*/
-    /* transform: scale(1.03);
-     transition: 0.3s linear;*/
+
 
     animation: pulse; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1s; /* don't forget to set a duration! */
   }
 
+  #concept_design_wrap img{
+    cursor: pointer;
+  }
+
+  #concept_design_wrap img:hover{
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+
+  }
+
   /* background-color: #d1cbc5;*/
-  background-color: #febe98;
+ /* background-color: #febe98;*/
 
   h3 {
     letter-spacing: 0.4rem;
@@ -56,12 +65,23 @@ html {
   }
 
   #site_layout {
-    background-color: #febe98;
+    /*background-color: #febe98;*/
   }
 
   .swiper {
     width: 600px;
     height: 600px;
+   /* border: 1px solid black;*/
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
   }
 
   footer {
