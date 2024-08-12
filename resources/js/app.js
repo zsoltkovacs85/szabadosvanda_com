@@ -34,10 +34,9 @@ const modal = new bootstrap.Modal('#zoom_img_modal', {
 // Shorthand for $( document ).ready()
 $(function() {
    $('#concept_design_wrap img').on('click', function (){
+       console.log($(this).attr('data-img'));
 
-       $('#zoom_img_modal .modal-body img').attr('src',$(this).attr('src'));
-
-      /* const img = $(this).attr('src');*/
+       $('#zoom_img_modal .modal-body img').attr('src',$(this).attr('data-img'));
 
        modal.show();
    })
