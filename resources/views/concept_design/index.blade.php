@@ -14,7 +14,7 @@
                 <div class="col-12 col-sm-4 mb-3">
                     <img src="{{asset('assets/img/thumbnails/thumbnail_'.$i.'.png')}}"
                          data-img="{{asset('assets/img/concept_design/concept_design_'.$i.'.png')}}"
-                         class="img-fluid border border-2 rounded">
+                         class="img-fluid border shadow-sm">
                 </div>
             @endfor
             {{--  <h3 class="text-center raleway-200 my-5 text-uppercase subtitle">Character Design</h3>--}}
