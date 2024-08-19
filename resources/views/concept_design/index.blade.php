@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h3 class="text-center raleway-200 py-5 text-uppercase subtitle">Character Design</h3>
+    <h3 class="text-center raleway-200 py-5 text-uppercase subtitle">Concept Design</h3>
 
     <div id="concept_design_wrap" class="mb-5">
 
