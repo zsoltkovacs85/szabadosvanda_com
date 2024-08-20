@@ -2,12 +2,12 @@
 
 @section('content')
     <div class="raleway-200">
-        <div class="row">
-            <h3 class="my-5 raleway-200 text-uppercase subtitle text-center">About us</h3>
-            <div class="col-12 mb-5">
+        <div class="row mb-5">
+            <h3 class="raleway-200 text-uppercase subtitle text-center my-5">About us</h3>
+            <div class="col-12">
 
                 <p>I am a self-taught 2D/3D artist from Hungary, with a passion for both traditional and digital art. I
-                    earned a master's degree in Computer Science, travelled worldwide, and moved toEngland to further
+                    earned a master's degree in Computer Science, travelled worldwide, and moved to England to further
                     improve
                     my English. When I finally had the opportunity, I quit my web developer job to follow my passion,
                     which
@@ -26,7 +26,9 @@
                     3d scenes in Blender with
                     Subdivision Modeling technique and using Photoshop/Affinity Photo for the post-production of the
                     final
-                    piece. However, my real passion is character creation, which is why I continued my studies with art
+                    piece (<a href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
+                              target="_blank"><b>https://www.artstation.com/vanda_szabados_requena/albums/2781196).</b></a>
+                    However, my real passion is character creation, which is why I continued my studies with art
                     fundamentals and 2D character design. I am present on twoon line course platforms, Schoolism and
                     Domestika to further my skills. Furthermore I completed an anatomy course onCGMA with Rey Bustos,
                     completed a few weeks mentoring with Wouter Tulp and currently I am being led by and receiving
@@ -35,10 +37,10 @@
                 </p>
             </div>
         </div>
-        <div class="row">
-            <h4 class="">SKILLS</h4>
+        <div class="row mb-5">
+            <h4 class="mb-4">SKILLS</h4>
             <div class="col-12 col-sm-6">
-                <h6 class="mt-5">2D:</h6>
+                <h6 class="">2D:</h6>
                 <ul>
                     <li>Concept design</li>
                     <li>Art fundamentals</li>
@@ -49,7 +51,7 @@
                 </ul>
             </div>
             <div class="col-12 col-sm-6">
-                <h6 class="mt-5">3D:</h6>
+                <h6 class="">3D:</h6>
                 <ul>
                     <li>Subdivision modeling</li>
                     <li>Shading</li>
@@ -65,7 +67,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-5">
             <h4 class="mb-3">TECHNICAL KNOWLEDGE</h4>
             <div class="col-12 col-sm-6">
                 <ul>
@@ -80,9 +82,9 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
-            <h3 class="my-5 ral/eway-200 text-uppercase subtitle text-left">LATEST WORK EXPERIENCES</h3>
-            <div class="col-12 mb-5">
+        <div class="row mb-5">
+            <h4 class="text-uppercase subtitle text-left mb-4">LATEST WORK EXPERIENCES</h4>
+            <div class="col-12">
                 <p><b>February 2023 – present:</b> Floor Manager / Supervisor – Ember Home – Royal Leamington Spa
                 </p>
                 <p>
@@ -108,9 +110,9 @@
                 </p>
             </div>
         </div>
-        <div class="row">
-            <h3 class="my-5 ral/eway-200 text-uppercase subtitle text-left">EDUCATION</h3>
-            <div class="col-12 mb-5">
+        <div class="row mb-5">
+            <h4 class="text-uppercase subtitle text-left mb-4">EDUCATION</h4>
+            <div class="col-12">
                 <p>
                     Computer Science Engineering Masters Degree, University of Miskolc, Hungary, 2009
                 </p>
@@ -119,10 +121,10 @@
                 </p>
             </div>
         </div>
-        <div class="row">
-            <h3 class="my-3 ral/eway-200 text-uppercase subtitle text-left">ADDITIONAL EDUCATION</h3>
+        <div class="row mb-5">
+            <h4 class="ral/eway-200 text-uppercase text-left mb-4">ADDITIONAL EDUCATION</h4>
             <div class="col-12">
-                <h6 class="mt-5">Mentoring:</h6>
+                <h6 class="">Mentoring:</h6>
                 <ul>
                     <li>Vagner Farias (Animation Director at Pinguim Contect)</li>
                     <li>Daniel Schier (Character Designer at Warner Brothers)</li>
@@ -149,9 +151,8 @@
             </div>
         </div>
 
-
         <div class="row">
-            <h3 class="my-5 ral/eway-200 text-uppercase subtitle text-left">LANGUAGES</h3>
+            <h4 class="text-uppercase subtitle text-left mb-4">LANGUAGES</h4>
             <div class="col-12 mb-5">
                 <ul>
                     <li>Hungarian: Native</li>
