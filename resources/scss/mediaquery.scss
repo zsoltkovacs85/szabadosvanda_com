@@ -6,13 +6,16 @@
 // No media query for `xs` since this is the default in Bootstrap
 
 @media (max-width: 576px) {
-
-  html {
-    .swiper {
-      width: 100%;
-      height: auto;
-    }
+  .swiper {
+    width: 100%;
+    height: auto;
   }
+
+  .owl-carousel {
+    width: 100%;
+    height: auto;
+  }
+
 
 }
 

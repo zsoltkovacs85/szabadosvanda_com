@@ -145,7 +145,7 @@
                     <div class="col-12">
                         <h6 class="">Mentoring:</h6>
                         <ul>
-                            <li>Vagner Farias (Animation Director at Pinguim Contect)</li>
+                            <li>Vagner Farias (Animation Director at Pinguim Content)</li>
                             <li>Daniel Schier (Character Designer at Warner Brothers)</li>
                             <li>Wouter Tulp (Character Design, Visual Development)</li>
                             <li>Rafael D.Zubán(www.rafilm.hu, Senior Artist )</li>
