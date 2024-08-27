@@ -8,7 +8,6 @@
 
         <div class="row gx-3">
 
-
             @for($i = 1; $i < 7; $i++)
 
                 <div class="col-12 col-sm-4 mb-3">

@@ -22,6 +22,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet">
 
+    <!-- OWL Carousel -->
+    <link rel="stylesheet" href="{{asset('assets/vendor/owlcarousel_v_2_3_4/dist/assets/owl.carousel.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/vendor/owlcarousel_v_2_3_4/dist/assets/owl.theme.default.min.css')}}">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/dcc6e338c9.js" crossorigin="anonymous"></script>
+
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>{{__('Vanda Szabados Portfolio Website')}}</title>
@@ -29,7 +36,7 @@
 </head>
 <body>
 <div id="site_layout">
-   <x-header/>
+    <x-header/>
     <!-- MAIN -->
     <main class="mt-1 mt-sm-5">
         <div class="container">
@@ -45,7 +52,44 @@
 <!-- JQuery -->
 <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
         integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+
+<!-- OWL Carousel JS -->
+<script src="{{asset('assets/vendor/owlcarousel_v_2_3_4/dist/owl.carousel.min.js')}}"></script>
+
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    const swiper = new Swiper(".mySwiper", {
+        /* spaceBetween: 30,
+         effect: "fade",*/
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+            loop:true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            nav:false,
+            animateIn: 'fadeIn',
+            animateOut: 'fadeOut',
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        });
+    });
+</script>
+
 </body>
 </html>

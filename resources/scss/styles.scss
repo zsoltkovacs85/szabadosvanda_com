@@ -20,87 +20,99 @@
 }
 
 .subtitle {
- /* color: #f1ffeb;*/
- /* color: #6b6b6b;*/
+  /* color: #f1ffeb;*/
+  /* color: #6b6b6b;*/
 }
 
-html {
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  font-weight: 400;
+  color: #6b6b6b;
+}
+
+.navbar-toggler {
+
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+.navbar-nav .nav-link:hover {
+
+
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+#concept_design_wrap img {
+  cursor: pointer;
+}
+
+#concept_design_wrap img:hover {
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+
+}
+
+#zoom_img_modal img {
+  width: 100%;
+}
+
+/* background-color: #d1cbc5;*/
+/* background-color: #febe98;*/
+
+h3 {
+  letter-spacing: 0.4rem;
+}
+
+ul {
+  letter-spacing: 0.08rem;
+}
+
+#site_layout {
+  /*background-color: #febe98;*/
+}
+
+.swiper {
+  width: 600px;
+  height: 600px;
+}
+
+.owl-carousel{
+  width: 600px;
+  height: 600px;
+}
+
+.owl-carousel img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+i{
+  color: #9394ad;
+}
+
+footer {
   a {
-    text-decoration: none;
-    color: black;
-  }
-
-  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    font-weight: 400;
-    color: #6b6b6b;
-  }
-
-  .navbar-toggler{
-
-    border: 1px solid black;
-    border-radius: 50px;
-  }
-
-  .navbar-nav .nav-link:hover {
-
-
-    animation: pulse; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 1s; /* don't forget to set a duration! */
-  }
-
-  #concept_design_wrap img{
-    cursor: pointer;
-  }
-
-  #concept_design_wrap img:hover{
-    animation: pulse; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 1s; /* don't forget to set a duration! */
 
   }
 
-  #zoom_img_modal img{
-    width: 80%;
-  }
-
-  /* background-color: #d1cbc5;*/
- /* background-color: #febe98;*/
-
-  h3 {
-    letter-spacing: 0.4rem;
-  }
-
-  ul {
-    letter-spacing: 0.08rem;
-  }
-
-  #site_layout {
-    /*background-color: #febe98;*/
-  }
-
-  .swiper {
-    width: 600px;
-    height: 600px;
-  }
-
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-  }
-
-  footer {
-    a {
-
-    }
-
-    a:hover {
-      color: #f1ffeb;
-    }
+  a:hover {
+    color: #f1ffeb;
   }
 }
 
