@@ -40,16 +40,16 @@
                             the
                             final
                             piece (<a href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
-                                      target="_blank"><b>https://www.artstation.com/vanda_szabados_requena/albums/2781196).</b></a>
+                                      target="_blank"><b>See the link for my 3D works</b></a>
                             However, my real passion is character creation, which is why I continued my studies with art
-                            fundamentals and 2D character design. I am present on twoon line course platforms, Schoolism
+                            fundamentals and 2D character design. I am present on two on line course platforms, Schoolism
                             and
-                            Domestika to further my skills. Furthermore I completed an anatomy course onCGMA with Rey
+                            Domestika to further my skills. Furthermore I completed an anatomy course on CGMA with Rey
                             Bustos,
                             completed a few weeks mentoring with Wouter Tulp and currently I am being led by and
                             receiving
                             feedback
-                            on my 2D studies from Vagner Farias, animation director.
+                            on mystudies from Vagner Farias, animation director.
                         </p>
                     </div>
                 </div>
@@ -133,10 +133,10 @@
                     <h4 class="text-uppercase subtitle text-left mb-4">EDUCATION</h4>
                     <div class="col-12">
                         <p>
-                            Computer Science Engineering Masters Degree, University of Miskolc, Hungary, 2009
+                            Computer Science Engineering Masters Degree, University of Miskolc, Hungary
                         </p>
                         <p>
-                            Graphics-DTP course, Top School Training Centre, Budapest, Hungary, 2010
+                            Graphics-DTP course, Top School Training Centre, Budapest
                         </p>
                     </div>
                 </div>

@@ -17,7 +17,7 @@
                                href="{{url('/')}}">{{__('Home')}}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link @if(request()->segment(1) == 'character-designs' ) active @endif"
+                            <a class="nav-link @if(request()->segment(1) == 'concept-design' ) active @endif"
                                href="{{url('concept-design')}}">{{__('Concept Design')}}</a>
                         </li>
                         <li class="nav-item">

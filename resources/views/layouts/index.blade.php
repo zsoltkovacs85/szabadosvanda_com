@@ -38,7 +38,7 @@
 <div id="site_layout">
     <x-header/>
     <!-- MAIN -->
-    <main class="mt-1 mt-sm-5">
+    <main class="mt-2">
         <div class="container">
             @yield('content')
         </div>
@@ -74,6 +74,7 @@
             autoplayTimeout: 3000,
             autoplayHoverPause: true,
             nav:false,
+            dots: false,
             animateIn: 'fadeIn',
             animateOut: 'fadeOut',
             responsive:{

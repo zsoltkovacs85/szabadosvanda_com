@@ -1,51 +1,28 @@
-.raleway-200 {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.raleway-300 {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.raleway-400 {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.subtitle {
-  /* color: #f1ffeb;*/
-  /* color: #6b6b6b;*/
-}
-
+@import "fonts";
+@import "navbar";
+@import "footer";
 
 a {
   text-decoration: none;
   color: black;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-  font-weight: 400;
-  color: #6b6b6b;
+
+h3 {
+  letter-spacing: 0.4rem;
 }
 
-.navbar-toggler {
-
-  border: 1px solid black;
-  border-radius: 50px;
+ul {
+  letter-spacing: 0.08rem;
 }
 
-.navbar-nav .nav-link:hover {
+i{
+  color: #9394ad;
+}
 
-
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 1s; /* don't forget to set a duration! */
+.subtitle {
+  /* color: #f1ffeb;*/
+  /* color: #6b6b6b;*/
 }
 
 #concept_design_wrap img {
@@ -65,13 +42,6 @@ a {
 /* background-color: #d1cbc5;*/
 /* background-color: #febe98;*/
 
-h3 {
-  letter-spacing: 0.4rem;
-}
-
-ul {
-  letter-spacing: 0.08rem;
-}
 
 #site_layout {
   /*background-color: #febe98;*/
@@ -100,20 +70,6 @@ ul {
 .swiper-slide img {
   display: block;
   width: 100%;
-}
-
-i{
-  color: #9394ad;
-}
-
-footer {
-  a {
-
-  }
-
-  a:hover {
-    color: #f1ffeb;
-  }
 }
 
 @import "mediaquery";
