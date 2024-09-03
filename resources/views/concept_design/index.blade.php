@@ -2,9 +2,9 @@
 
 @section('content')
 
-    <h3 class="text-center raleway-200 py-5 text-uppercase subtitle">Concept Design</h3>
+    <h3 class="text-center quicksand-300 pt-3 pb-5 text-uppercase subtitle">Concept Design</h3>
 
-    <div id="concept_design_wrap" class="mb-5">
+    <div id="concept_design_wrap" class="">
 
         <div class="row gx-3">
 

@@ -5,9 +5,9 @@
     <div class="row">
         <div class="col-12 col-sm-2"></div>
         <div class="col-12 col-sm-8">
-            <div class="raleway-200">
+            <div class="quicksand-300">
                 <div class="row mb-5">
-                    <h3 class="raleway-200 text-uppercase subtitle text-center my-5">About</h3>
+                    <h3 class="quicksand-300 text-uppercase pt-3 pb-5 subtitle text-center">About</h3>
                     <div class="col-12">
 
                         <p>I am a self-taught 2D/3D artist from Hungary, with a passion for both traditional and digital

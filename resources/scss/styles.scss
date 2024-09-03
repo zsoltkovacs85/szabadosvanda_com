@@ -2,6 +2,10 @@
 @import "navbar";
 @import "footer";
 
+body{
+  font-family: quicksand-400;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -13,7 +17,7 @@ h3 {
 }
 
 ul {
-  letter-spacing: 0.08rem;
+  letter-spacing: 0;
 }
 
 i{

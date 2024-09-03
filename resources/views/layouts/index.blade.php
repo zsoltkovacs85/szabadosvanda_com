@@ -22,6 +22,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
     <!-- OWL Carousel -->
     <link rel="stylesheet" href="{{asset('assets/vendor/owlcarousel_v_2_3_4/dist/assets/owl.carousel.css')}}">
     <link rel="stylesheet" href="{{asset('assets/vendor/owlcarousel_v_2_3_4/dist/assets/owl.theme.default.min.css')}}">
@@ -38,7 +40,7 @@
 <div id="site_layout">
     <x-header/>
     <!-- MAIN -->
-    <main class="mt-2">
+    <main class="my-5">
         <div class="container">
             @yield('content')
         </div>
@@ -75,8 +77,8 @@
             autoplayHoverPause: true,
             nav:false,
             dots: false,
-            animateIn: 'fadeIn',
-            animateOut: 'fadeOut',
+           /* animateIn: 'fadeIn',
+            animateOut: 'fadeOut',*/
             responsive:{
                 0:{
                     items:1
