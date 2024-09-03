@@ -49,7 +49,7 @@
                             completed a few weeks mentoring with Wouter Tulp and currently I am being led by and
                             receiving
                             feedback
-                            on mystudies from Vagner Farias, animation director.
+                            on my studies from Vagner Farias, animation director.
                         </p>
                     </div>
                 </div>
