@@ -40,7 +40,7 @@
                             the
                             final
                             piece.(Please see the <a href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
-                                      target="_blank">link</a>for my 3d projects.
+                                      target="_blank">link</a> for my 3d projects.
                             However, my real passion is character creation, which is why I continued my studies with art
                             fundamentals and 2D character design. I am present on two on line course platforms, Schoolism
                             and
