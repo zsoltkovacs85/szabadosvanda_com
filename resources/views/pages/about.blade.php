@@ -23,7 +23,7 @@
                             ability to meet deadlines consistently. Successful in working as part of a team and skilled
                             at
                             working
-                            independently. I currently focusing on developing core art skills and technical abilities,
+                            independently. I currently focus on developing core art skills and technical abilities,
                             and
                             working
                             hard
@@ -114,7 +114,7 @@
                         </p>
 
 
-                        <p>
+                        <p class="mt-5">
                             <b>June 2020 – December 2022:</b>
                         </p>
                         <p>
@@ -124,7 +124,7 @@
                         </p>
 
 
-                        <p>
+                        <p class="mt-5">
                             <b>June 2017 –June 2020:</b> Front-End Developer - Volcanic - Manchester
                         </p>
                         <p> Successfully built and maintained responsive websites in the recruitment industry.
@@ -177,7 +177,7 @@
                     <h4 class="text-uppercase subtitle text-left mb-4">LANGUAGES</h4>
                     <div class="col-12 mb-5">
                         <ul>
-                            <li>Hungarian: Native</li>
+                            <li >Hungarian: Native</li>
                             <li> English: Advanced</li>
                             <li> Spanish: Elementary</li>
                         </ul>
