@@ -88,7 +88,7 @@
                 </div>
                 <div class="row mb-5">
                     <h4 class="mb-3">TECHNICAL KNOWLEDGE</h4>
-                    <div class="col-12 col-sm-6">
+                    <div class="col-12 col-sm-12">
                         <ul>
                             <li>Procreate</li>
                             <li>Adobe Photoshop ,Adobe Illustrator ,Adobe Indesign</li>
