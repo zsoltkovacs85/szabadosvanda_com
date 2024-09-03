@@ -23,7 +23,8 @@
                             ability to meet deadlines consistently. Successful in working as part of a team and skilled
                             at
                             working
-                            independently. I currently focusing on developing core art skills and technical abilities, and
+                            independently. I currently focusing on developing core art skills and technical abilities,
+                            and
                             working
                             hard
                             on making a career switch to the Animation industry as a character designer.
@@ -39,10 +40,12 @@
                             Subdivision Modeling technique and using Photoshop/Affinity Photo for the post-production of
                             the
                             final
-                            piece. Please see the <a href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
-                                      target="_blank">link</a> for my 3d projects.
+                            piece. Please see the <a
+                                    href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
+                                    target="_blank">link</a> for my 3d projects.
                             However, my real passion is character creation, which is why I continued my studies with art
-                            fundamentals and 2D character design. I am present on two on line course platforms, Schoolism
+                            fundamentals and 2D character design. I am present on two on line course platforms,
+                            Schoolism
                             and
                             Domestika to further my skills. Furthermore I completed an anatomy course on CGMA with Rey
                             Bustos,
@@ -115,10 +118,9 @@
                             <b>June 2020 – December 2022:</b>
                         </p>
                         <p>
-                            I left my web-developer job and invested my savings into stay at home
-                            focusing on self-studying 3D modeling in Blender (1 year) and continued my studies with 2D,
-                            art
-                            fundamentals and character design.
+                            I left my job as a web developer and invested my savings to stay at home, dedicating a year
+                            to self-studying 3D modelling in Blender. Following that, I continued my studies in 2D art,
+                            foundational art principles, and character design.
                         </p>
 
 
