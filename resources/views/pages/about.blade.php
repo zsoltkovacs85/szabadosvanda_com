@@ -147,27 +147,27 @@
                     <div class="col-12">
                         <h6 class="">Mentoring:</h6>
                         <ul>
-                            <li>Vagner Farias (Animation Director at Pinguim Content)</li>
-                            <li>Daniel Schier (Character Designer at Warner Brothers)</li>
-                            <li>Wouter Tulp (Character Design, Visual Development)</li>
-                            <li>Rafael D.Zubán(www.rafilm.hu, Senior Artist )</li>
+                            <li>Vagner Farias ( Animation Director at Pinguim Content )</li>
+                            <li>Daniel Schier ( Character Designer at Warner Brothers )</li>
+                            <li>Wouter Tulp ( Character Design, Visual Development )</li>
+                            <li>Rafael D.Zubán ( www.rafilm.hu, Senior Artist )</li>
 
                         </ul>
 
 
                         <h6 class="mt-5">Online Courses:</h6>
                         <ul>
-                            <li>Drawing Basics(Stan Prokopenko)</li>
-                            <li>Figure Drawing Fundamentals(Stan Prokopenko)</li>
-                            <li>Characters for Animated Film(Daniel Arriaga, Schoolism)</li>
-                            <li>Fundamentals of Expressive Character Design(Wouter Tulp, Schoolism)</li>
-                            <li>Conceptual Characters(Wouter Tulp, Schoolism)</li>
-                            <li>Drawing Fundamentals(Thomas Fluharty, Schoolism)</li>
-                            <li>Deconstructed:Drawing People( Viktor Kalvachev, Schoolism)</li>
-                            <li>Digital Character Design: Draw Protagonists with Personality(Joel Santana, Domestika)
+                            <li>Drawing Basics ( Stan Prokopenko )</li>
+                            <li>Figure Drawing Fundamentals ( Stan Prokopenko )</li>
+                            <li>Characters for Animated Film ( Daniel Arriaga, Schoolism )</li>
+                            <li>Fundamentals of Expressive Character Design ( Wouter Tulp, Schoolism )</li>
+                            <li>Conceptual Characters ( Wouter Tulp, Schoolism )</li>
+                            <li>Drawing Fundamentals ( Thomas Fluharty, Schoolism )</li>
+                            <li>Deconstructed:Drawing People ( Viktor Kalvachev, Schoolism )</li>
+                            <li>Digital Character Design: Draw Protagonists with Personality ( Joel Santana, Domestika )
                             </li>
-                            <li>Intro to Production Modeling, CG Master Academy ( JonathanLin, CGMA)</li>
-                            <li>Analytical Figure Drawing (Rey Bustos, CGMA)</li>
+                            <li>Intro to Production Modeling, CG Master Academy ( JonathanLin, CGMA )</li>
+                            <li>Analytical Figure Drawing (Rey Bustos, CGMA )</li>
 
                         </ul>
                     </div>
