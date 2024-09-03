@@ -8,7 +8,7 @@
 
         <div class="row gx-3">
 
-            @for($i = 1; $i < 7; $i++)
+            @for($i = 1; $i < 8; $i++)
 
                 <div class="col-12 col-sm-4 mb-3">
                     <img src="{{asset('assets/img/thumbnails/thumbnail_'.$i.'.png')}}"
