@@ -12,7 +12,7 @@
 
                 <div class="col-12 col-sm-4 mb-3">
                     <img src="{{asset('assets/img/thumbnails/ti_'.$i.'.png')}}"
-                         data-img="{{asset('assets/img/concept_design/concept_design_full_'.$i.'.png')}}"
+                         data-img="{{asset('assets/img/concept_design/CD_'.$i.'.png')}}"
                          class="img-fluid border shadow-sm rounded">
                 </div>
             @endfor
