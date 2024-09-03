@@ -32,15 +32,15 @@
                         <p>
                             I spent one year gaining experience in working under direct supervision with Senior Artist
                             Rafael
-                            D.Zuban ( <a href="www.rafilm.hu"><b>www.rafilm.hu</b></a>) to meet deadlines and quality
+                            D.Zuban ( <a href="www.rafilm.hu">www.rafilm.hu</a>) to meet deadlines and quality
                             standards,
                             building
                             3d scenes in Blender with
                             Subdivision Modeling technique and using Photoshop/Affinity Photo for the post-production of
                             the
                             final
-                            piece (<a href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
-                                      target="_blank"><b>Please see the link for my 3d projects.)</b></a>
+                            piece.(Please see the <a href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
+                                      target="_blank">link</a>for my 3d projects.
                             However, my real passion is character creation, which is why I continued my studies with art
                             fundamentals and 2D character design. I am present on two on line course platforms, Schoolism
                             and
