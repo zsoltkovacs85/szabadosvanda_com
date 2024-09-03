@@ -23,7 +23,7 @@
                             ability to meet deadlines consistently. Successful in working as part of a team and skilled
                             at
                             working
-                            independently. Currently focusing on developing core art skills and technical abilities, and
+                            independently. I currently focusing on developing core art skills and technical abilities, and
                             working
                             hard
                             on making a career switch to the Animation industry as a character designer.
@@ -39,7 +39,7 @@
                             Subdivision Modeling technique and using Photoshop/Affinity Photo for the post-production of
                             the
                             final
-                            piece.Please see the <a href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
+                            piece. Please see the <a href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
                                       target="_blank">link</a> for my 3d projects.
                             However, my real passion is character creation, which is why I continued my studies with art
                             fundamentals and 2D character design. I am present on two on line course platforms, Schoolism
