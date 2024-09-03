@@ -27,7 +27,7 @@
                             and
                             working
                             hard
-                            on making a career switch to the Animation industry as a character designer.
+                            on making a career switch to the Animation industry as a character artist.
                         </p>
 
                         <p>
