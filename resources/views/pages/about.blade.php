@@ -167,7 +167,7 @@
                             <li>Digital Character Design: Draw Protagonists with Personality ( Joel Santana, Domestika )
                             </li>
                             <li>Intro to Production Modeling, CG Master Academy ( JonathanLin, CGMA )</li>
-                            <li>Analytical Figure Drawing (Rey Bustos, CGMA )</li>
+                            <li>Analytical Figure Drawing ( Rey Bustos, CGMA )</li>
 
                         </ul>
                     </div>
