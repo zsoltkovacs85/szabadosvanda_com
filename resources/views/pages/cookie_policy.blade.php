@@ -5,9 +5,9 @@
     <div class="row">
         <div class="col-12 col-sm-2"></div>
         <div class="col-12 col-sm-8">
-            <div class="raleway-200">
+            <div class="quicksand-400">
                 <div class="row mb-5">
-                    <h3 class="raleway-200 text-uppercase subtitle text-center my-5">Cookie Policy</h3>
+                    <h3 class="quicksand-300 text-uppercase pt-3 pb-5 subtitle text-center">Cookie Policy</h3>
                 </div>
                 <div class="row">
                     <div class="">

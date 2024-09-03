@@ -8,7 +8,6 @@ use Illuminate\Http\Request;
 interface iPageController
 {
     public function getPageContent(Request $request);
-
     public function getAbout();
     public function getCookiePolicy();
     public function getPrivacyPolicy();
