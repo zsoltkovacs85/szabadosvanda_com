@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-12 col-sm-2"></div>
         <div class="col-12 col-sm-8">
-            <div class="quicksand-300">
+            <div class="quicksand-400">
                 <div class="row mb-5">
                     <h3 class="quicksand-300 text-uppercase pt-3 pb-5 subtitle text-center">About</h3>
                     <div class="col-12">
@@ -40,7 +40,7 @@
                             the
                             final
                             piece (<a href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
-                                      target="_blank"><b>See the link for my 3D works</b></a>
+                                      target="_blank"><b>Please see the link for my 3d projects.)</b></a>
                             However, my real passion is character creation, which is why I continued my studies with art
                             fundamentals and 2D character design. I am present on two on line course platforms, Schoolism
                             and
