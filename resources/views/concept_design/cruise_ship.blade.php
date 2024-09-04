@@ -11,7 +11,7 @@
             @for($i = 1; $i < 5; $i++)
 
                 <div class="col-12 col-sm-6 mb-3">
-                        <img src="{{asset('assets/img/thumbnails/CD_3_'.$i.'.png')}}"
+                        <img src="{{asset('assets/img/thumbnails/CDI_3_'.$i.'.png')}}"
                              data-img="{{asset('assets/img/concept_design/CD_3_'.$i.'.png')}}"
                              class="concept_design_item img-fluid border shadow-sm rounded">
                 </div>
