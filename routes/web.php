@@ -22,7 +22,7 @@ Route::get('/', [IndexController::class, 'index']);
 Route::get('/illustrations', [IllustrationController::class, 'index']);
 Route::get('/illustrations/{url}', [IllustrationController::class, 'show']);
 Route::get('/concept-design', [CharacterDesignController::class, 'index']);
-Route::get('/character-designs/{url}', [CharacterDesignController::class, 'show']);
+Route::get('/concept-design/cruise-ship', [CharacterDesignController::class, 'getCruiseShip']);
 Route::get('/about', [PageController::class, 'getAbout']);
 Route::get('/contact', [ContactController::class, 'index']);
 Route::get('/cookie-policy', [PageController::class, 'getCookiePolicy']);

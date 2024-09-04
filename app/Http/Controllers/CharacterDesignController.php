@@ -12,6 +12,8 @@ interface iCharacterDesignController
 
     public function show($url);
 
+    public function getCruiseShip();
+
 }
 
 class CharacterDesignController extends Controller implements iCharacterDesignController
@@ -33,6 +35,14 @@ class CharacterDesignController extends Controller implements iCharacterDesignCo
 
         return view('character_designs.show',[
             'images' => $images
+        ]);
+    }
+
+    public function getCruiseShip()
+    {
+
+        return view('concept_design.cruise_ship',[
+
         ]);
     }
 }
