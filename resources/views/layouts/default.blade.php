@@ -68,28 +68,28 @@
                         <img src="{{url('assets/img/thumbnails/CDI_3_1.png')}}"
                              data-img="{{url('assets/img/concept_design/CD_3_1.png')}}"
                              class="concept_design_item img-fluid border shadow-sm rounded"
-                             alt="Line Up">
+                             alt="Cruise ship / Line Up">
                     </div>
 
                     <div class="col-12 col-sm-6 mb-3">
                         <img src="{{url('assets/img/thumbnails/CDI_3_2.png')}}"
                              data-img="{{url('assets/img/concept_design/CD_3_2.png')}}"
                              class="concept_design_item img-fluid border shadow-sm rounded"
-                             alt="Expressions">
+                             alt="Cruise ship / Expressions">
                     </div>
 
                     <div class="col-12 col-sm-6 mb-3">
                         <img src="{{url('assets/img/thumbnails/CDI_3_3.png')}}"
                              data-img="{{url('assets/img/concept_design/CD_3_3.png')}}"
                              class="concept_design_item img-fluid border shadow-sm rounded"
-                             alt="Custom Design">
+                             alt="Cruise ship / Custom Design">
                     </div>
 
                     <div class="col-12 col-sm-6 mb-3">
                         <img src="{{url('assets/img/thumbnails/CDI_3_4.png')}}"
                              data-img="{{url('assets/img/concept_design/CD_3_4.png')}}"
                              class="concept_design_item img-fluid border shadow-sm rounded"
-                             alt="Variations">
+                             alt="Cruise ship / Variations">
                     </div>
 
 
