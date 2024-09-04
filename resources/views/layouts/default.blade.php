@@ -82,7 +82,7 @@
                         <img src="{{url('assets/img/thumbnails/CDI_3_3.png')}}"
                              data-img="{{url('assets/img/concept_design/CD_3_3.png')}}"
                              class="concept_design_item img-fluid border shadow-sm rounded"
-                             alt="Cruise ship / Custom Design">
+                             alt="Cruise ship / Costume Design">
                     </div>
 
                     <div class="col-12 col-sm-6 mb-3">
