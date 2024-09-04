@@ -49,8 +49,7 @@
                             and
                             Domestika to further my skills. Furthermore I completed an anatomy course on CGMA with Rey
                             Bustos,
-                            completed a few weeks mentoring with Wouter Tulp and currently I am being led by and
-                            receiving
+                            completed a few weeks mentoring with Wouter Tulp and currently I am receiving
                             feedback
                             on my studies from Vagner Farias, animation director.
                         </p>
