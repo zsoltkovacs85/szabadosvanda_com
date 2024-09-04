@@ -27,6 +27,7 @@ ul {
 
 i{
   color: black;
+  opacity: 70%;
 }
 
 .subtitle {
@@ -70,6 +71,10 @@ i{
   a{
     color: black
   }
+}
+
+main{
+  min-height: 500px;
 }
 
 @import "mediaquery";
