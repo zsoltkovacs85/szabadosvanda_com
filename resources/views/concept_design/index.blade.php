@@ -40,7 +40,7 @@
                 <img src="{{url('assets/img/thumbnails/ti_2.png')}}"
                      data-img="{{url('assets/img/concept_design/CD_2.png')}}"
                      class="concept_design_item img-fluid border shadow-sm rounded"
-                     alt="Panda">
+                     alt="Baby Panda">
             </div>
 
             <div class="col-12 col-sm-4 mb-3">
