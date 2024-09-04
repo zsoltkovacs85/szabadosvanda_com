@@ -104,17 +104,20 @@
                 <div class="row mb-5">
                     <h4 class="text-uppercase subtitle text-left mb-4">LATEST WORK EXPERIENCES</h4>
                     <div class="col-12">
-                        <p><b>February 2023 – present:</b> Floor Manager / Supervisor – Ember Home – Royal Leamington
+                        <p class="mb-2"><b>February 2023 – present:</b> Floor Manager / Supervisor – Ember Home – Royal Leamington
                             Spa
+
+                            <br>
                         </p>
-                        <p>
-                            I am responsible for the daily operation of a family business while I continue my studies in
+                        <p>I am responsible for the daily operation of a family business while I continue my studies in
                             my free
-                            time.
-                        </p>
+                            time.</p>
+                       {{-- <p>
+
+                        </p>--}}
 
 
-                        <p class="mt-5">
+                        <p class="mt-5 mb-2">
                             <b>June 2020 – December 2022:</b>
                         </p>
                         <p>
@@ -124,7 +127,7 @@
                         </p>
 
 
-                        <p class="mt-5">
+                        <p class="mt-5 mb-2">
                             <b>June 2017 –June 2020:</b> Front-End Developer - Volcanic - Manchester
                         </p>
                         <p> Successfully built and maintained responsive websites in the recruitment industry.
