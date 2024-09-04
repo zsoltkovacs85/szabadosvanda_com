@@ -65,29 +65,29 @@
                      @endfor--}}
 
                     <div class="col-12 col-sm-6 mb-3">
-                        <img src="http://localhost/assets/img/thumbnails/CDI_3_1.png"
-                             data-img="http://localhost/assets/img/concept_design/CD_3_1.png"
+                        <img src="{{url('assets/img/thumbnails/CDI_3_1.png')}}"
+                             data-img="{{url('assets/img/concept_design/CD_3_1.png')}}"
                              class="concept_design_item img-fluid border shadow-sm rounded"
                              alt="Line Up">
                     </div>
 
                     <div class="col-12 col-sm-6 mb-3">
-                        <img src="http://localhost/assets/img/thumbnails/CDI_3_2.png"
-                             data-img="http://localhost/assets/img/concept_design/CD_3_2.png"
+                        <img src="{{url('assets/img/thumbnails/CDI_3_2.png')}}"
+                             data-img="{{url('assets/img/concept_design/CD_3_2.png')}}"
                              class="concept_design_item img-fluid border shadow-sm rounded"
                              alt="Expressions">
                     </div>
 
                     <div class="col-12 col-sm-6 mb-3">
-                        <img src="http://localhost/assets/img/thumbnails/CDI_3_3.png"
-                             data-img="http://localhost/assets/img/concept_design/CD_3_3.png"
+                        <img src="{{url('assets/img/thumbnails/CDI_3_3.png')}}"
+                             data-img="{{url('assets/img/concept_design/CD_3_3.png')}}"
                              class="concept_design_item img-fluid border shadow-sm rounded"
                              alt="Custom Design">
                     </div>
 
                     <div class="col-12 col-sm-6 mb-3">
-                        <img src="http://localhost/assets/img/thumbnails/CDI_3_4.png"
-                             data-img="http://localhost/assets/img/concept_design/CD_3_4.png"
+                        <img src="{{url('assets/img/thumbnails/CDI_3_4.png')}}"
+                             data-img="{{url('assets/img/concept_design/CD_3_4.png')}}"
                              class="concept_design_item img-fluid border shadow-sm rounded"
                              alt="Variations">
                     </div>
