@@ -25,7 +25,7 @@
                             working
                             independently. I currently focus on developing core art skills and technical abilities,
                             and
-                            working
+                            I am working
                             hard
                             on making a career switch to the Animation Industry as a character artist.
                         </p>
