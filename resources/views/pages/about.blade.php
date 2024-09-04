@@ -44,7 +44,7 @@
                                     href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
                                     target="_blank">link</a> for my 3d projects.
                             However, my real passion is character creation, which is why I continued my studies with art
-                            fundamentals and 2D character design. I am present on two on line course platforms,
+                            fundamentals and 2D character design. I am present on two online course platforms,
                             Schoolism
                             and
                             Domestika to further my skills. Furthermore I completed an anatomy course on CGMA with Rey
