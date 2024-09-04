@@ -10,6 +10,11 @@ a {
   text-decoration: none;
  /* color: black;*/
 }
+header{
+  a{
+    color: black;
+  }
+}
 
 
 h3 {
@@ -51,29 +56,20 @@ i{
   /*background-color: #febe98;*/
 }
 
-.swiper {
-  width: 600px;
-  height: 600px;
-}
-
 .owl-carousel, .mySlideshow{
   width: 600px;
   height: 600px;
 }
 
-.owl-carousel img {
+.owl-carousel img, .mySlideshow img {
   display: block;
   width: 100%;
 }
 
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
+#zoom_img_modal{
+  a{
+    color: black
+  }
 }
 
 @import "mediaquery";

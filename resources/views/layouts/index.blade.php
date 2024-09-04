@@ -94,8 +94,8 @@
 
         duration: 1000,
         interval: 4000,
-        width: 600,
-        height: 600,
+      /*  width: 600,
+        height: 600,*/
         backgroundColor:'#fff',
 
     });

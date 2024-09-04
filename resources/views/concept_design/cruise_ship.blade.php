@@ -1,4 +1,7 @@
-@extends('layouts.index')
+@extends('layouts.default')
+
+
+{{--@extends('layouts.index')
 
 @section('content')
 
@@ -21,4 +24,4 @@
         </div>
     </div>
 
-@endsection
+@endsection--}}

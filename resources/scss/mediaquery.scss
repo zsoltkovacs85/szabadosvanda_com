@@ -6,14 +6,18 @@
 // No media query for `xs` since this is the default in Bootstrap
 
 @media (max-width: 576px) {
-  .swiper {
-    width: 100%;
-    height: auto;
-  }
 
   .owl-carousel, .mySlideshow {
     width: 100%;
     height: auto;
+  }
+  .mySlideshow img, .mySlideshow div {
+    width: 100% !important;
+    background-size: cover;
+  }
+
+  .cb-slideshow div{
+    background-size: cover!important;
   }
 
 
