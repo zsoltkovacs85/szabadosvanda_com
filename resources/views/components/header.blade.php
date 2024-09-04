@@ -5,7 +5,7 @@
         <h3 class="text-center text-uppercase quicksand-400 subtitle">{{__('Portfolio')}}</h3>
         <nav class="navbar navbar-expand-lg mt-3">
             <div class="container-fluid">
-                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                         aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
