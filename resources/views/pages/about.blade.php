@@ -43,15 +43,10 @@
                             piece. Please see the <a
                                     href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
                                     target="_blank">link</a> for my 3d projects.
-                            However, my real passion is character creation, which is why I continued my studies with art
-                            fundamentals and 2D character design. I am present on two online course platforms,
-                            Schoolism
-                            and
-                            Domestika to further my skills. Furthermore I completed an anatomy course on CGMA with Rey
-                            Bustos,
-                            completed a few weeks mentoring with Wouter Tulp and currently I am receiving
-                            feedback
-                            on my studies from Vagner Farias, animation director.
+                            I have successfully completed courses from CGMA, Schoolism, and Domestika , and I continue
+                            to actively engage in learning through these platforms.
+                            I have had the privilege of being mentored by industry professionals Wouter Tulp and Daniel
+                            Schier, and I am currently receiving ongoing feedback and guidance from Vagner Farias.
                         </p>
                     </div>
                 </div>
@@ -103,7 +98,8 @@
                 <div class="row mb-5">
                     <h4 class="text-uppercase subtitle text-left mb-4">LATEST WORK EXPERIENCES</h4>
                     <div class="col-12">
-                        <p class="mb-2"><b>February 2023 – present:</b> Floor Manager / Supervisor – Ember Home – Royal Leamington
+                        <p class="mb-2"><b>February 2023 – present:</b> Floor Manager / Supervisor – Ember Home – Royal
+                            Leamington
                             Spa
 
                             <br>
@@ -111,9 +107,9 @@
                         <p>I am responsible for the daily operation of a family business while I continue my studies in
                             my free
                             time.</p>
-                       {{-- <p>
+                        {{-- <p>
 
-                        </p>--}}
+                         </p>--}}
 
 
                         <p class="mt-5 mb-2">
@@ -179,8 +175,8 @@
                     <h4 class="text-uppercase subtitle text-left mb-4">LANGUAGES</h4>
                     <div class="col-12 mb-5">
                         <ul>
-                            <li >Hungarian: Native</li>
-                            <li> English: Advanced</li>
+                            <li>Hungarian: Native</li>
+                            <li> English: Working Proficiency</li>
                             <li> Spanish: Elementary</li>
                         </ul>
                     </div>
