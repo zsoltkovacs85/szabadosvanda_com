@@ -69,7 +69,7 @@
                 <img src="{{url('assets/img/thumbnails/tit_6.png')}}"
                      data-img="{{url('assets/img/concept_design/CDCD_6.png')}}"
                      class="concept_design_item img-fluid border shadow-sm rounded"
-                     alt="Surfing Girl">
+                     alt="Surfer">
             </div>
             
             <div class="col-12 col-sm-4 mb-3">

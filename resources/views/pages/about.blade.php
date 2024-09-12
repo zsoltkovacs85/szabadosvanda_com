@@ -10,44 +10,44 @@
                     <h3 class="quicksand-300 text-uppercase pt-3 pb-5 subtitle text-center">About</h3>
                     <div class="col-12">
 
-                        <p>I am a self-taught 2D/3D artist from Hungary, with a passion for both traditional and digital
-                            art. I
-                            earned a master's degree in Computer Science, travelled worldwide, and moved to England to
-                            further
-                            improve
-                            my English. When I finally had the opportunity, I quit my web developer job to follow my
-                            passion,
-                            which
-                            has been present since childhood. I am a strong communicator with an outstanding work ethic
-                            and the
-                            ability to meet deadlines consistently. Successful in working as part of a team and skilled
-                            at
-                            working
-                            independently. I currently focus on developing core art skills and technical abilities,
-                            and
-                            I am working
-                            hard
-                            on making a career switch to the Animation Industry as a character artist.
+                        <p>I am a self-taught 2D/3D artist from Hungary with a deep passion for both traditional and
+                            digital art. I hold a Master’s degree in Computer Science and have traveled worldwide,
+                            ultimately moving to England to enhance my English skills. When the opportunity arose, I
+                            transitioned from my web developer job to pursue my lifelong passion for art. Known for my
+                            strong communication skills and exceptional work ethic, I consistently meet deadlines and
+                            thrive in both collaborative and independent work environments. Currently, I am dedicated to
+                            honing my core artistic skills and technical abilities as I make a career shift into the
+                            animation industry as a character artist. I gained valuable experience working under the
+                            mentorship of Senior Artist Rafael D. Zuban (<a href="www.rafilm.hu">www.rafilm.hu</a>),
+                            where I developed 3D scenes in
+                            Blender using Subdivision Modeling techniques while managing post-production with Photoshop
+                            and Affinity Photo to adhere to quality standards. I have successfully completed courses
+                            from CGMA, Schoolism, and Domestika, and I remain actively engaged in ongoing learning. I
+                            have had the privilege of being mentored by industry professionals, including Wouter Tulp
+                            and Daniel Schier, and I am currently receiving guidance from Vagner Farias to further
+                            enhance my skills. Please visit my Artstation account to see my 3D projects: <a
+                                    href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
+                                    target="_blank">link</a>.
                         </p>
 
-                        <p>
-                            I spent one year gaining experience in working under direct supervision with Senior Artist
-                            Rafael
-                            D.Zuban ( <a href="www.rafilm.hu">www.rafilm.hu</a>) to meet deadlines and quality
-                            standards,
-                            building
-                            3d scenes in Blender with
-                            Subdivision Modeling technique and using Photoshop/Affinity Photo for the post-production of
-                            the
-                            final
-                            piece. Please see the <a
-                                    href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
-                                    target="_blank">link</a> for my 3d projects.
-                            I have successfully completed courses from CGMA, Schoolism, and Domestika , and I continue
-                            to actively engage in learning through these platforms.
-                            I have had the privilege of being mentored by industry professionals Wouter Tulp and Daniel
-                            Schier, and I am currently receiving ongoing feedback and guidance from Vagner Farias.
-                        </p>
+                        {{-- <p>
+                             I spent one year gaining experience in working under direct supervision with Senior Artist
+                             Rafael
+                             D.Zuban ( <a href="www.rafilm.hu">www.rafilm.hu</a>) to meet deadlines and quality
+                             standards,
+                             building
+                             3d scenes in Blender with
+                             Subdivision Modeling technique and using Photoshop/Affinity Photo for the post-production of
+                             the
+                             final
+                             piece. Please see the <a
+                                     href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
+                                     target="_blank">link</a> for my 3d projects.
+                             I have successfully completed courses from CGMA, Schoolism, and Domestika , and I continue
+                             to actively engage in learning through these platforms.
+                             I have had the privilege of being mentored by industry professionals Wouter Tulp and Daniel
+                             Schier, and I am currently receiving ongoing feedback and guidance from Vagner Farias.
+                         </p>--}}
                     </div>
                 </div>
                 <div class="row mb-5">
@@ -116,9 +116,11 @@
                             <b>June 2020 – December 2022:</b>
                         </p>
                         <p>
-                            I left my job as a web developer and invested my savings to stay at home, dedicating a year
-                            to self-studying 3D modelling in Blender. Following that, I continued my studies in 2D art,
-                            foundational art principles, and character design.
+                            I made the bold decision to leave my web developer position and invest my savings to
+                            dedicate an entire year to self-study in 3D modeling using Blender. During this time, I
+                            focused on mastering the intricacies of the software. Building on that foundation, I
+                            continued my education in 2D art, exploring foundational art principles and character design
+                            to develop a well-rounded skill set.
                         </p>
 
 
@@ -148,7 +150,7 @@
                             <li>Vagner Farias ( Animation Director at Pinguim Content )</li>
                             <li>Daniel Schier ( Character Designer at Warner Brothers )</li>
                             <li>Wouter Tulp ( Character Design, Visual Development )</li>
-                            <li>Rafael D.Zubán ( www.rafilm.hu, Senior Artist )</li>
+                            <li>Rafael D.Zubán ( CEO at RafilmVFX and Managing Director at Clear Angle Studios )</li>
 
                         </ul>
 
