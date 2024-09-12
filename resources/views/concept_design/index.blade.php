@@ -31,14 +31,14 @@
 
             <div class="col-12 col-sm-4 mb-3">
                 <img src="{{url('assets/img/thumbnails/tit_1.png')}}"
-                     data-img="{{url('assets/img/concept_design/CDCD_1.png')}}"
+                     data-img="{{url('assets/img/concept_design/CDCON_1.png')}}"
                      class="concept_design_item img-fluid border shadow-sm rounded"
                      alt="Caribbean girl">
             </div>
 
             <div class="col-12 col-sm-4 mb-3">
                 <img src="{{url('assets/img/thumbnails/tit_2.png')}}"
-                     data-img="{{url('assets/img/concept_design/CDCD_2.png')}}"
+                     data-img="{{url('assets/img/concept_design/CDCON_2.png')}}"
                      class="concept_design_item img-fluid border shadow-sm rounded"
                      alt="Baby Panda">
             </div>
@@ -53,28 +53,28 @@
 
             <div class="col-12 col-sm-4 mb-3">
                 <img src="{{url('assets/img/thumbnails/tit_4.png')}}"
-                     data-img="{{url('assets/img/concept_design/CDCD_4.png')}}"
+                     data-img="{{url('assets/img/concept_design/CDCON_4.png')}}"
                      class="concept_design_item img-fluid border shadow-sm rounded"
                      alt="Snake Artist">
             </div>
 
             <div class="col-12 col-sm-4 mb-3">
                 <img src="{{url('assets/img/thumbnails/tit_5.png')}}"
-                     data-img="{{url('assets/img/concept_design/CDCD_5.png')}}"
+                     data-img="{{url('assets/img/concept_design/CDCON_5.png')}}"
                      class="concept_design_item img-fluid border shadow-sm rounded"
                      alt="Poker Player">
             </div>
 
             <div class="col-12 col-sm-4 mb-3">
                 <img src="{{url('assets/img/thumbnails/tit_6.png')}}"
-                     data-img="{{url('assets/img/concept_design/CDCD_6.png')}}"
+                     data-img="{{url('assets/img/concept_design/CDCON_6.png')}}"
                      class="concept_design_item img-fluid border shadow-sm rounded"
                      alt="Surfer">
             </div>
             
             <div class="col-12 col-sm-4 mb-3">
                 <img src="{{url('assets/img/thumbnails/tit_7.png')}}"
-                     data-img="{{url('assets/img/concept_design/CDCD_7.png')}}"
+                     data-img="{{url('assets/img/concept_design/CDCON_7.png')}}"
                      class="concept_design_item img-fluid border shadow-sm rounded"
                      alt="Elefant">
             </div>
