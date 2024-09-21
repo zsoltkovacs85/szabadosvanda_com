@@ -17,17 +17,23 @@
                             strong communication skills and exceptional work ethic, I consistently meet deadlines and
                             thrive in both collaborative and independent work environments. Currently, I am dedicated to
                             honing my core artistic skills and technical abilities as I make a career shift into the
-                            animation industry as a character artist. I gained valuable experience working under the
+                            animation industry as a character artist.
+                        </p>
+
+                        <p>I gained valuable experience working under the
                             mentorship of Senior Artist Rafael D. Zuban (<a href="www.rafilm.hu">www.rafilm.hu</a>),
                             where I developed 3D scenes in
                             Blender using Subdivision Modeling techniques while managing post-production with Photoshop
-                            and Affinity Photo to adhere to quality standards. I have successfully completed courses
-                            from CGMA, Schoolism, and Domestika, and I remain actively engaged in ongoing learning. I
-                            have had the privilege of being mentored by industry professionals, including Wouter Tulp
-                            and Daniel Schier, and I am currently receiving guidance from Vagner Farias to further
-                            enhance my skills. Please visit my Artstation account to see my 3D projects: <a
+                            and Affinity Photo to adhere to quality standards. Please visit my Artstation account to see
+                            my 3D <a
                                     href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
-                                    target="_blank">link</a>.
+                                    target="_blank">projects.</a>.
+                        </p>
+                        <p>
+                            I have successfully completed courses from CGMA, Schoolism, and Domestika, and I remain
+                        actively engaged in ongoing learning. I have had the privilege of being mentored by industry
+                        professionals, including Wouter Tulp and Daniel Schier, and I am currently receiving
+                        guidance from Vagner Farias to further enhance my skills.
                         </p>
 
                         {{-- <p>
