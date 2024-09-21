@@ -30,10 +30,12 @@
                                     target="_blank">projects.</a>
                         </p>
                         <p>
+                            My ultimate aim is to become a skilled character designer, this is why I chose to further my
+                            education by focusing on 2D character creation.
                             I have successfully completed courses from CGMA, Schoolism, and Domestika, and I remain
-                        actively engaged in ongoing learning. I have had the privilege of being mentored by industry
-                        professionals, including Wouter Tulp and Daniel Schier, and I am currently receiving
-                        guidance from Vagner Farias to further enhance my skills.
+                            actively engaged in ongoing learning. I have had the privilege of being mentored by industry
+                            professionals, including Wouter Tulp and Daniel Schier, and I am currently receiving
+                            guidance from Vagner Farias to further enhance my skills.
                         </p>
 
                         {{-- <p>
