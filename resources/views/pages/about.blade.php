@@ -27,7 +27,7 @@
                             and Affinity Photo to adhere to quality standards. Please visit my Artstation account to see
                             my 3D <a
                                     href="https://www.artstation.com/vanda_szabados_requena/albums/2781196"
-                                    target="_blank">projects.</a>.
+                                    target="_blank">projects.</a>
                         </p>
                         <p>
                             I have successfully completed courses from CGMA, Schoolism, and Domestika, and I remain
