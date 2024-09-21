@@ -7,17 +7,22 @@
 
 @media (max-width: 576px) {
 
-  .owl-carousel, .mySlideshow {
+  .mySlideshow {
     width: 100%;
     height: auto;
   }
   .mySlideshow img, .mySlideshow div {
     width: 100% !important;
-    background-size: cover;
+
+  }
+
+  .cb-slideshow{
+    width: 100%;
   }
 
   .cb-slideshow div {
-    background-size: cover !important;
+
+    width: 100%!important;
   }
 
   .nav-link {

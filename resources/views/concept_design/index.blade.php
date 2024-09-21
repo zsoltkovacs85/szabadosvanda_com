@@ -76,7 +76,7 @@
                 <img src="{{url('assets/img/thumbnails/tit_7.png')}}"
                      data-img="{{url('assets/img/concept_design/CDCON_7.png')}}"
                      class="concept_design_item img-fluid border shadow-sm rounded"
-                     alt="Elefant">
+                     alt="Elephant">
             </div>
         </div>
     </div>
