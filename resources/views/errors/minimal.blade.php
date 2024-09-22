@@ -81,7 +81,7 @@
     <!-- MAIN -->
     <main class="my-5">
         <div class="container">
-           <h5 class="text-center quicksand-400 fw-bold">Sorry, we are still working on the mobile layout.</h5>
+           <h5 class="text-center quicksand-400 fw-bold">Please visit my website on desktop as we still improve the mobile experience</h5>
         </div>
     </main>
     <x-footer/>
