@@ -59,8 +59,19 @@ i{
 }
 
 .owl-carousel, .mySlideshow{
-  width: 600px;
-  height: 600px;
+  width: 500px!important;
+  height: 500px!important;
+  border: 1px solid red;
+}
+
+.cb-slideshow{
+  width: 500px!important;
+  height: 500px!important;
+}
+
+.cb-slideshow div {
+
+  width: 100%!important;
 }
 
 .owl-carousel img, .mySlideshow img {

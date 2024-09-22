@@ -1,7 +1,7 @@
 <!-- HEADER -->
-<header class="mt-5">
+<header class="mt-4">
     <div class="container">
-        <h1 class="text-center mt-5 text-uppercase quicksand-500">{{__('Vanda Szabados')}}</h1>
+        <h1 class="text-center text-uppercase quicksand-500">{{__('Vanda Szabados')}}</h1>
         <h3 class="text-center text-uppercase quicksand-400 subtitle">{{__('Portfolio')}}</h3>
         <nav class="navbar navbar-expand-lg mt-3">
             <div class="container-fluid">

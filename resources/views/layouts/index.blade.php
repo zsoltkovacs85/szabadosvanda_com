@@ -40,7 +40,7 @@
 <div id="site_layout">
     <x-header/>
     <!-- MAIN -->
-    <main class="my-5">
+    <main class="my-3">
         <div class="container">
             @yield('content')
         </div>
