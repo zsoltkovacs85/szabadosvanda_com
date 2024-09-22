@@ -40,9 +40,9 @@
 <div id="site_layout">
     <header class="border-bottom p-3">
         <div class="d-flex justify-content-between">
-            <h1 class="modal-title fs-6 text-uppercase">Concept design - CRUISE SHIP</h1>
+            <h1 class="modal-title fs-6 quicksand-400">Concept Design / Cruise Ship</h1>
             <a href="{{url('concept-design')}}"
-               class="text-uppercase"
+               class="quicksand-400"
                alt="">
                 <i class="fa-solid fa-arrow-left text-black" aria-hidden="true"></i>
                 <span> Back</span>
