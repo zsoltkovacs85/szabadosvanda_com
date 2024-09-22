@@ -17,7 +17,7 @@
                     </a>
                 @endif
             </div>
-            <div class="modal-body text-center">
+            <div class="modal-body text-center p-0">
                 <img src="" class="" alt="">
             </div>
         </div>

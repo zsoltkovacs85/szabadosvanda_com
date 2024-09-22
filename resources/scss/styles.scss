@@ -2,6 +2,13 @@
 @import "navbar";
 @import "footer";
 
+html, body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
 body{
   font-family: quicksand-400;
 }
@@ -55,13 +62,15 @@ i{
 
 
 #site_layout {
-  /*background-color: #febe98;*/
+  box-sizing: border-box;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .owl-carousel, .mySlideshow{
   width: 500px!important;
   height: 500px!important;
-  border: 1px solid red;
 }
 
 .cb-slideshow{
@@ -86,11 +95,13 @@ i{
 }
 
 main{
-  min-height: 80vh;
+
+  flex-grow: 1;
+ /* min-height: 60vh;*/
   display: flex;
   justify-content: center;
   align-content: center;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 @import "mediaquery";
