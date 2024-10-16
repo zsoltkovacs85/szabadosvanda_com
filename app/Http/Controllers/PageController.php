@@ -17,8 +17,14 @@ class PageController extends Controller implements iPageController
 {
     public function getPageContent(Request $request)
     {
-        $page = Page::where('url', $request->segment(1))->firstOrFail();
-        return view('pages.about', ['page' => $page]);
+        $page = Page::where('url', $request->segment(1))
+            ->select(
+                'title',
+                'desc'
+            )
+            ->firstOrFail();
+
+        return view('pages.index', ['page' => $page]);
     }
 
 

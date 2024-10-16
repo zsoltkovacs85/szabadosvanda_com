@@ -29,55 +29,81 @@
     <div id="concept_design_wrap" class="">
         <div class="row gx-3">
 
-            <div class="col-12 col-sm-4 mb-3">
-                <img src="{{url('assets/img/thumbnails/tit_1.png')}}"
-                     data-img="{{url('assets/img/concept_design/CDCON_1.png')}}"
-                     class="concept_design_item img-fluid border shadow-sm rounded"
-                     alt="Caribbean girl">
-            </div>
+            @if(isset($conceptDesigns) && count($conceptDesigns) > 0 )
+                @foreach($conceptDesigns as $conceptDesign)
 
-            <div class="col-12 col-sm-4 mb-3">
-                <img src="{{url('assets/img/thumbnails/tit_2.png')}}"
-                     data-img="{{url('assets/img/concept_design/CDCON_2.png')}}"
-                     class="concept_design_item img-fluid border shadow-sm rounded"
-                     alt="Baby Panda">
-            </div>
+                    @if( $conceptDesign['no_img'] == 1)
 
-            <div class="col-12 col-sm-4 mb-3">
-                <a href="{{url('concept-design/cruise-ship')}}">
-                    <img src="{{url('assets/img/thumbnails/tit_3.png')}}"
-                         class="img-fluid border shadow-sm rounded"
-                         alt="">
-                </a>
-            </div>
+                        <div class="col-12 col-sm-4 mb-3">
+                            <img src="{{env('ADMIN_URL')}}/{{$conceptDesign['thumbnail']}}"
+                                 data-img="{{env('ADMIN_URL')}}/{{$conceptDesign['gallery_img']}}"
+                                 class="concept_design_item img-fluid border shadow-sm rounded"
+                                 alt="{{$conceptDesign['name']}}">
+                        </div>
+                    @else
 
-            <div class="col-12 col-sm-4 mb-3">
-                <img src="{{url('assets/img/thumbnails/tit_4.png')}}"
-                     data-img="{{url('assets/img/concept_design/CDCON_4.png')}}"
-                     class="concept_design_item img-fluid border shadow-sm rounded"
-                     alt="Snake Artist">
-            </div>
+                        <div class="col-12 col-sm-4 mb-3">
+                            <a href="concept-design/{{$conceptDesign['url']}}">
+                                <img src="{{env('ADMIN_URL')}}/{{$conceptDesign['thumbnail']}}"
+                                     class="img-fluid border shadow-sm rounded"
+                                     alt="">
+                            </a>
+                        </div>
 
-            <div class="col-12 col-sm-4 mb-3">
-                <img src="{{url('assets/img/thumbnails/tit_5.png')}}"
-                     data-img="{{url('assets/img/concept_design/CDCON_5.png')}}"
-                     class="concept_design_item img-fluid border shadow-sm rounded"
-                     alt="Poker Player">
-            </div>
+                    @endif
 
-            <div class="col-12 col-sm-4 mb-3">
-                <img src="{{url('assets/img/thumbnails/tit_6.png')}}"
-                     data-img="{{url('assets/img/concept_design/CDCON_6.png')}}"
-                     class="concept_design_item img-fluid border shadow-sm rounded"
-                     alt="Surfer">
-            </div>
+                @endforeach
+            @endif
 
-            <div class="col-12 col-sm-4 mb-3">
-                <img src="{{url('assets/img/thumbnails/tit_7.png')}}"
-                     data-img="{{url('assets/img/concept_design/CDCON_7.png')}}"
-                     class="concept_design_item img-fluid border shadow-sm rounded"
-                     alt="Elephant">
-            </div>
+               {{-- <div class="col-12 col-sm-4 mb-3">
+                    <img src="{{url('assets/img/thumbnails/tit_1.png')}}"
+                         data-img="{{url('assets/img/concept_design/CDCON_1.png')}}"
+                         class="concept_design_item img-fluid border shadow-sm rounded"
+                         alt="Caribbean girl">
+                </div>
+
+                <div class="col-12 col-sm-4 mb-3">
+                    <img src="{{url('assets/img/thumbnails/tit_2.png')}}"
+                         data-img="{{url('assets/img/concept_design/CDCON_2.png')}}"
+                         class="concept_design_item img-fluid border shadow-sm rounded"
+                         alt="Baby Panda">
+                </div>--}}
+
+              {{--  <div class="col-12 col-sm-4 mb-3">
+                    <a href="{{url('concept-design/cruise-ship')}}">
+                        <img src="{{url('assets/img/thumbnails/tit_3.png')}}"
+                             class="img-fluid border shadow-sm rounded"
+                             alt="">
+                    </a>
+                </div>--}}
+
+               {{-- <div class="col-12 col-sm-4 mb-3">
+                    <img src="{{url('assets/img/thumbnails/tit_4.png')}}"
+                         data-img="{{url('assets/img/concept_design/CDCON_4.png')}}"
+                         class="concept_design_item img-fluid border shadow-sm rounded"
+                         alt="Snake Artist">
+                </div>
+
+                <div class="col-12 col-sm-4 mb-3">
+                    <img src="{{url('assets/img/thumbnails/tit_5.png')}}"
+                         data-img="{{url('assets/img/concept_design/CDCON_5.png')}}"
+                         class="concept_design_item img-fluid border shadow-sm rounded"
+                         alt="Poker Player">
+                </div>--}}
+
+               {{-- <div class="col-12 col-sm-4 mb-3">
+                    <img src="{{url('assets/img/thumbnails/tit_6.png')}}"
+                         data-img="{{url('assets/img/concept_design/CDCON_6.png')}}"
+                         class="concept_design_item img-fluid border shadow-sm rounded"
+                         alt="Surfer">
+                </div>
+
+                <div class="col-12 col-sm-4 mb-3">
+                    <img src="{{url('assets/img/thumbnails/tit_7.png')}}"
+                         data-img="{{url('assets/img/concept_design/CDCON_7.png')}}"
+                         class="concept_design_item img-fluid border shadow-sm rounded"
+                         alt="Elephant">
+                </div>--}}
         </div>
     </div>
 

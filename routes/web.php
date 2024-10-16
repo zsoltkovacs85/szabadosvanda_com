@@ -21,13 +21,13 @@ use App\Http\Middleware\MobileDetect;
 Route::middleware([MobileDetect::class])->group(function () {
 
     Route::get('/', [IndexController::class, 'index']);
-    Route::get('/illustrations', [IllustrationController::class, 'index']);
-    Route::get('/illustrations/{url}', [IllustrationController::class, 'show']);
+    //Route::get('/illustrations', [IllustrationController::class, 'index']);
+    //Route::get('/illustrations/{url}', [IllustrationController::class, 'show']);
     Route::get('/concept-design', [CharacterDesignController::class, 'index']);
-    Route::get('/concept-design/cruise-ship', [CharacterDesignController::class, 'getCruiseShip']);
+    Route::get('/concept-design/{url}', [CharacterDesignController::class, 'show']);
     Route::get('/about', [PageController::class, 'getAbout']);
     Route::get('/contact', [ContactController::class, 'index']);
-    Route::get('/cookie-policy', [PageController::class, 'getCookiePolicy']);
-    Route::get('/privacy-statement', [PageController::class, 'getPrivacyPolicy']);
+    Route::get('/cookie-policy', [PageController::class, 'getPageContent']);
+    Route::get('/privacy-statement', [PageController::class, 'getPageContent']);
 
 });

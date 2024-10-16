@@ -40,7 +40,7 @@
 <div id="site_layout">
     <header class="border-bottom p-3">
         <div class="d-flex justify-content-between">
-            <h1 class="modal-title fs-6 quicksand-500">Concept Design / Cruise Ship</h1>
+            <h1 class="modal-title fs-6 quicksand-500">Concept Design / {{$images[0]['name']  }}</h1>
             <a href="{{url('concept-design')}}"
                class="quicksand-500"
                alt="">
@@ -64,7 +64,18 @@
                          </div>
                      @endfor--}}
 
-                    <div class="col-12 col-sm-6 mb-3">
+                    @if(isset($images) && count($images) > 0 )
+                        @foreach($images as $image)
+                            <div class="col-12 col-sm-6 mb-3">
+                                <img src="{{env('ADMIN_URL')}}/{{$image->path}}"
+                                     data-img="{{env('ADMIN_URL')}}/{{$image->path}}"
+                                     class="concept_design_item img-fluid border shadow-sm rounded"
+                                     alt="Cruise ship / Line Up">
+                            </div>
+                        @endforeach
+                    @endif
+
+                   {{-- <div class="col-12 col-sm-6 mb-3">
                         <img src="{{url('assets/img/thumbnails/CDI_3_1.png')}}"
                              data-img="{{url('assets/img/concept_design/CD_3_1.png')}}"
                              class="concept_design_item img-fluid border shadow-sm rounded"
@@ -76,9 +87,9 @@
                              data-img="{{url('assets/img/concept_design/CD_3_2.png')}}"
                              class="concept_design_item img-fluid border shadow-sm rounded"
                              alt="Cruise ship / Expressions">
-                    </div>
+                    </div>--}}
 
-                    <div class="col-12 col-sm-6 mb-3">
+                   {{-- <div class="col-12 col-sm-6 mb-3">
                         <img src="{{url('assets/img/thumbnails/CDI_3_3.png')}}"
                              data-img="{{url('assets/img/concept_design/CD_3_3.png')}}"
                              class="concept_design_item img-fluid border shadow-sm rounded"
@@ -90,7 +101,7 @@
                              data-img="{{url('assets/img/concept_design/CD_3_4.png')}}"
                              class="concept_design_item img-fluid border shadow-sm rounded"
                              alt="Cruise ship / Variations">
-                    </div>
+                    </div>--}}
 
                 </div>
             </div>

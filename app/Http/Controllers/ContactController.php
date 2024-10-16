@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\GeneralSetting;
 
 interface iContactController
 {
@@ -15,6 +15,12 @@ class ContactController extends Controller implements iContactController
 {
     public function index()
     {
-        return view('contact.index');
+
+        $contact = GeneralSetting::findOrFail(1);
+
+        return view('contact.index',
+            [
+                'contact' => $contact
+            ]);
     }
 }
